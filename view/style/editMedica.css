@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-image: url('http://localhost/PHARMACYTIEG/mvcc/image/6.webp');
+    background-size: 100% 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+}
+table{
+    background-color: rgb(254, 173, 0);
+    opacity: 0.9;
+    width: 970px;
+    height: 500px;
+    margin-top: 41px;
+    color: aliceblue;
+    border-radius: 30px;
+    margin-left: 22px;
+    padding: 10px;
+}
+
+td{
+    padding-left: 10px;
+    padding-right: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 40px;
+    border-radius: 0px;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+input,textarea{
+    width: 100%;
+}
+input {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+    background-color: black;
+    opacity: 0.9;
+    color: aliceblue;
+    border-radius: 15px;
+    padding-left: 12px;
+}
+textarea{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    opacity: 0.9;
+    color: aliceblue;
+    border-radius: 15px;
+    padding-left: 12px;
+    padding-top: 18px;
+}
+.submit{
+    width: 180px;
+    margin-top: 40px;
+}
+.submit:hover{
+    background-color: darkgreen;
+    opacity: 0.9;
+}

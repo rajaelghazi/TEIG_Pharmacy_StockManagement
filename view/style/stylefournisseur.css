@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-image: url('http://localhost/PHARMACYTIEG/mvcc/image/6.webp');
+    background-size: 100% 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+}
+table{
+    background-color: rgb(5, 5, 5);
+    opacity: 0.9;
+    width: 970px;
+    height: 500px;
+    margin-top: 41px;
+    color: aliceblue;
+    border-radius: 30px;
+    margin-left: 22px;
+    padding: 10px;
+}
+.th{
+    
+    border-left: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    height: 60px;
+    border-radius: 25px;
+    width: 200px;
+    color: rgb(14, 102, 234);
+}
+.td{
+    padding-left: 25px;
+    padding-right: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 40px;
+    border-radius: 0px;
+    text-align: center;
+
+}
+.fa-solid{
+    padding-left: 15px;
+}
+
+.edit,.supprimer{
+    border: 0px;
+}
+.edsu,.action{
+    border-left: 0px;
+    border-right: 0px;
+}
+.action{
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.fa-trash-can{
+    color : rgb(227, 33, 33);
+}
+.fa-pen-to-square{
+    color: yellow;
+}
