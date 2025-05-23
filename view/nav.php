@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <title> Tieg pharmacie </title>
-    <link rel="stylesheet" href="http://localhost/PHARMACYTIEG/mvcc/view/style.css">
+    <link rel="stylesheet" href="http://localhost/TEIG-Clone/view/style.css">
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -17,14 +17,14 @@
   <div class="sidebar ">
     <div class="logo-details">
       
-      <img  class=" tieg" src="http://localhost/PHARMACYTIEG/mvcc/image/tieg.png" alt="">
+      <img  class=" tieg" src="http://localhost/TEIG-Clone/image/tieg.png" alt="">
       <span class="logo_name">TIEG Pharmacie</span>
     </div>
     <!-- ********************************************************************************* -->
     <ul class="nav-links">
       <!-- ------------------------------------------------------------------------------ -->
       <li>
-        <a href="http://localhost/PHARMACYTIEG/mvcc/">
+        <a href="http://localhost/TEIG-Clone/">
           <i class='bx bx-grid-alt' ></i>
           <span class="link_name">Page d'accueil</span>
         </a>
@@ -45,7 +45,7 @@
           <li><a href="#">chercher par terme</a></li>
           <li><a href="#">chercher par type</a></li>
           <li><a href="#">chercher par familé</a></li>
-          <li><a href="http://localhost/PHARMACYTIEG/mvcc/medicament/ajouter">ajouter medicament</a></li>
+          <li><a href="http://localhost/TEIG-Clone/medicament/ajouter">ajouter medicament</a></li>
           
         </ul>
       </li>
@@ -60,10 +60,10 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="#">fournisseur</a></li>
-          <li><a href="http://localhost/PHARMACYTIEG/mvcc/fournisseur">afficher fournisseur</a></li>
+          <li><a href="http://localhost/TEIG-Clone/fournisseur">afficher fournisseur</a></li>
           <li><a href="#">chercher fournisseur</a></li>
           
-          <li><a href="http://localhost/PHARMACYTIEG/mvcc/fournisseur/ajouter">ajouter fournisseur</a></li>
+          <li><a href="http://localhost/TEIG-Clone/fournisseur/ajouter">ajouter fournisseur</a></li>
          
 
         </ul>

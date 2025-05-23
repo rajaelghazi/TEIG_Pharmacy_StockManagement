@@ -1,20 +1,24 @@
 <?php
-$sgbd="mysql";
-$host="localhost";
-$dbname="tieg";
-$charset="utf8";
-$dns=$sgbd.":host=".$host.";dbname=".$dbname.";charset".$charset;
-$user="root";
-$password="";
-$err=array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION);
 
+$host = 'localhost';
+$dbname = 'tieg';
+$user = 'root';
+$password = '';
+
+$dsn = "mysql:host=$host;dbname=$dbname;charset=utf8mb4";
+
+$options = [
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    PDO::ATTR_EMULATE_PREPARES => false,
+];
+
+$cnx = null;
 
 try {
-    $cnx=new PDO ($dns,$user,$password,$err);
-    //  echo " <p style = 'color :green '> connexion par sucess...!! </p>";
-    } catch (PDOException $e) {
-    echo " <p style = 'color :red '> connexion echouer...!! $e->getMessage() </p>";
-
-    }
-
-?>
+    $cnx = new PDO($dsn, $user, $password, $options);
+    echo "Connection successful!";
+} catch (PDOException $e) {
+    echo "Connection failed: " . $e->getMessage();
+    die();
+}

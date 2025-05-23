@@ -74,7 +74,7 @@ class venteModel{
         $data=$req->execute([$Quantité_vendue]);
         if ($data) {
             echo "Update data Successfully";
-            header("location:http://localhost/PHARMACYTIEG/mvcc/vente");
+            header("location:http://localhost:/PHARMACYTIEG/mvcc/vente");
         }else{
             return "Error...! Not updated.";
         }
@@ -87,7 +87,7 @@ class venteModel{
         $req="DELETE FROM vente WHERE id_vente=? ";
         $req=$cnx->prepare($req);
         $data=$req-> execute([$id]);
-        header("location:http://localhost/PHARMACYTIEG/mvcc/vente");
+        header("location:http://localhost/TEIG-Clone/vente");
         
     }
 

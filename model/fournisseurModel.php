@@ -74,7 +74,7 @@ public function ajouter(){
         $req=$cnx->prepare($req);
         $data=$req-> execute([$nom,$prenom,$adresse,$tel]);
         if ($data) {
-            header("location:http://localhost/PHARMACYTIEG/mvcc/fournisseur");
+            header("location:http://localhost/TEIG-Clone/fournisseur");
         }
         
     }}
@@ -84,7 +84,7 @@ public function ajouter(){
         $req="DELETE FROM fournisseur WHERE id_fournisseur=? ";
         $req=$cnx->prepare($req);
         $data=$req-> execute([$id]);
-        header("location:http://localhost/PHARMACYTIEG/mvcc/fournisseur");
+        header("location:http://localhost/TEIG-Clone/fournisseur");
     
     }
 }

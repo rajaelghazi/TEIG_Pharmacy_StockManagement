@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/PHARMACYTIEG/mvcc/view/style/stylefournisseur.css">
+    <link rel="stylesheet" href="http://localhost/TEIG-Clone/view/style/stylefournisseur.css">
 
     <title>TIEG</title>
 </head>

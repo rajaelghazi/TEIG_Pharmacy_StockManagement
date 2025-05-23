@@ -93,7 +93,7 @@ class medicamentModel{
         $data=$req->execute([$Terme,$date_EX,$details,$prixUnit,$Quantite, $type, $famile]);
         // var_dump($data);
         if ($data) {
-            header("location:http://localhost/PHARMACYTIEG/mvcc");
+            header("location:http://localhost/TEIG-Clone");
         }
     }
 }
@@ -102,7 +102,7 @@ class medicamentModel{
         $req="DELETE FROM medicament WHERE id_medica=? ";
         $req=$cnx->prepare($req);
         $data=$req-> execute([$id]);
-        header("location:http://localhost/PHARMACYTIEG/mvcc");
+        header("location:http://localhost/TEIG-Clone");
         
     }
     function Type($cherche){
@@ -131,7 +131,7 @@ class medicamentModel{
                     $req="UPDATE medicament  SET Quantite=Quantite-1 WHERE id_medica=$cherche";
                     $req=$cnx->prepare($req);
                     $datas=$req->execute([]);
-                    header("location:http://localhost/PHARMACYTIEG/mvcc");
+                    header("location:http://localhost/TEIG-Clone");
                 } 
                 $sql="UPDATE vente SET Quantite_vendue=Quantite_vendue+1 WHERE id_medica=$cherche ";
                 $req=$cnx->prepare($sql);

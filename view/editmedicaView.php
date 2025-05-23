@@ -28,7 +28,7 @@ foreach($data as $result){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/PHARMACYTIEG/mvcc/view/style/editMedica.css">
+    <link rel="stylesheet" href="http://localhos:t/PHARMACYTIEG/mvcc/view/style/editMedica.css">
 
     <title>modifier</title>
 </head>
